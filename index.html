@@ -9,26 +9,20 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="./assets/icons/list.svg" alt="menu-icon" height="20px">
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#about">About</a>
+              <a class="dropdown-item" href="#projects">Top Projects</a>
+              <a class="dropdown-item" href="#contact">Contact Me</a>
+            </div>
+          </div>
         <a class="navbar-brand" href="#">My Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
     </nav>
 
     <div class="container">
@@ -90,8 +84,11 @@
         <div id="contact" class="contact mt-5">
             <h2>Contact</h2>
             <p>Feel free to reach out to me through the following channels:</p>
-            <p>Email: <a href="mailto:jasondominickraft@gmail.com">Jason Kraft</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/jason-kraft-564604214" target="_blank">Jason Kraft</a></p>
+            <p> <a href="mailto:jasondominickraft@gmail.com"><img id="social-icon" src="./assets/icons/envelope.svg" height="30px"></a>
+                <a href="https://www.linkedin.com/in/jason-kraft-564604214"><img id="social-icon" src="./assets/icons/linkedin.svg" height="30px"></a>
+                <a href="https://github.com/jaykraft"><img id="social-icon" src="./assets/icons/github.svg" height="30px"></a>
+                <a href="https://x.com/Sloozu"><img id="social-icon" src="./assets/icons/twitter-x.svg" height="30px"></a>
+            </p>
         </div>
     </div>
 

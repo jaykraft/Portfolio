@@ -45,3 +45,8 @@ body {
     margin-top: 30px;
     text-align: center;
 }
+
+#social-icon {
+    padding-right: 15px;
+    align-items: center;
+}
